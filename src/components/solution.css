@@ -1,0 +1,101 @@
+.solution-container{
+    display: block;
+    padding: 15px;
+    font-family: 'Fjalla One', sans-serif;
+}
+.solution-header{
+    font-family: 'Fjalla One', sans-serif;
+}
+
+.solution-info{
+    font-family: 'Fjalla One', sans-serif;
+    font-size: 20px;
+    font-weight: 0;
+    padding-left: 10vw ;
+    padding-top: 10vh;
+    width: 65vw;
+    
+}
+.solution-infograph{
+    display: flex;
+    padding-left: 10vw;
+}
+
+
+.jar{
+    transform: translate(0%,50%);
+  
+}
+
+.jar:hover{
+
+    cursor: pointer;
+    animation: slide 5s ease;
+    transform-origin: center;    
+}
+
+@media only screen and (max-width: 912px) {
+    .solution-container{
+        margin-top: 30px;
+        width: 100%;
+        padding: 0px;
+        margin: 0;
+        
+    }
+    .solution-header{
+        font-size: 20px;
+        text-align: center;
+    }
+    .solution-infograph{
+        display: block;
+        padding: 0px;
+        margin: 0;
+      
+    }
+    .solution-info{
+        width: 90%;
+        font-size: 30px;
+        margin-top: 20px;
+
+    }
+    .solution-info p{
+        padding:0
+    }
+    .jar{
+        transform: scale(1) translate(10%,25%);
+        padding:0;
+        margin: 0;
+      
+    }
+    jar:hover{
+
+        cursor: pointer;
+       
+         
+    }
+    
+
+
+
+}
+
+@keyframes slide {
+    0%{
+        transform: rotate(5deg) ; 
+    } 
+    25%{
+        transform: rotate(30deg) ; 
+    } 
+    50%{
+    transform: rotate(-15deg) ;
+    } 
+    75%{
+        transform: rotate(-30deg) ; 
+    }
+    100%{
+        transform: rotate(-5deg) ; 
+
+    }
+
+    
+}

@@ -1,0 +1,30 @@
+.mission-container{
+    padding-left: 25px;
+    font-family: 'Fjalla One', sans-serif;
+  
+}
+
+.mission-container h1{
+    font-family: 'Fjalla One', sans-serif;
+    font-weight: bolder;
+    font-size: 75px;
+    color: #009973;
+}
+.mission-body{
+    font-family: 'Fjalla One', sans-serif;
+    font-weight: bolder;
+    font-size: 90px;
+    color: black;
+}
+@media only screen and (max-width: 912px) {
+    .mission-container{
+       width:100vw;
+       padding-left: 15px;
+    }
+    .mission-body{
+        width:95%;
+        font-size: 45px;
+        display: flex;
+        align-content: center;
+    }
+}

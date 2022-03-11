@@ -1,0 +1,48 @@
+.problem-container{
+    font-family: 'Fjalla One', sans-serif;
+    padding: 15px;
+    
+
+}
+.problem-info{
+    display: flex;
+    padding-left: 5vw;
+}
+
+.problem-txt {
+width: 65%;    
+}
+.problem-txt p{
+    font-size: 20px;
+    font-weight: lighter;
+}
+@media only screen and (max-width: 912px){
+    .problem-container{
+        padding: 10px
+    }
+    .problem-info{
+        display: block;
+        width: 95%;
+       
+        
+    }
+    .problem-txt {
+        width: 100%; 
+       
+    }
+    .problem-txt p{
+        font-size: 30px;
+        font-weight: lighter;
+    }
+    .problem-image img{
+        transform: scale(.6) translate(-40%,0%);
+    }
+    .problem-header{
+        font-size: 20px;
+        width: 100%;
+        text-align: center;
+        color: #009973;
+        
+    }
+}
+
